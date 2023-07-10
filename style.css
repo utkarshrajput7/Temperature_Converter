@@ -1,0 +1,52 @@
+body{
+    
+    background-image: url("images/bg.avif" );
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.container{
+    border-radius: 1.2rem;
+    opacity: 0.5;
+    background-color: grey;
+    margin: 50px 90px 50px 250px;
+    text-align: center;
+    padding: 50px ;
+    height: 73vh;
+}
+.heading{
+    text-align: center;
+    /* font-weight: ; */
+    opacity: 100;
+    /* color: white; */
+    position: relative;
+    z-index: 1;
+} 
+.input-div{
+    display: inline-block;
+}
+.inp{
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    width: 250px;
+    margin: 10px;
+    border-radius: 1.2rem;
+}
+label{
+    font-size: 25px;
+}
+.temp{
+    margin-top: 15vh;
+    display: flex;
+   
+}
+#eq{
+    height: 10px;
+    width: 10px;
+
+}
